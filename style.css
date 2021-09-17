@@ -1,0 +1,338 @@
+body{
+    margin: 0;
+}
+.header{
+    width: 100%;
+    height: 90px;
+    background-color: #fff;
+    float: left;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: inherit;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: -webkit-inline-box;
+}
+.dropdown-image{
+    width: 100px;
+    height: 80px;
+}
+.search{
+    width: 60px;
+    height: 60px;
+    margin-top: -2px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.menu{
+    width: 65px;
+    height: 60px;
+    margin-top: 11px;
+    margin-left: 30px;
+    cursor: pointer;;
+}
+.logo{
+    width: 100px;
+    height: 27px;
+    padding: 26px;
+    margin-left: 55px;
+    float: left;
+}
+.header-text{
+    margin-left: 30px;
+    margin-top: 35px;
+    font-family: 'Nunito', sans-serif;
+    float: left;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.header-text:hover{
+    color: blue;
+}
+.x70{
+    width: 100%;
+    height: 550px;
+}
+.second-text{
+    font-family: 'Nunito', sans-serif;
+    color: black;
+}
+.Yone{
+    font-family: 'Nunito', sans-serif;
+   
+}
+.Ytwo{
+
+}
+.Ythree{
+
+}
+.discover{
+    margin-left: 60px;
+    font-size: 45px;
+    float: none;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.secondimage{
+    width: 1030px;
+    padding: 90px;
+    height: 350px;
+    object-fit: cover;
+    margin-top:50px ;
+    margin-left: 60px;
+    background-image: url(y53s.jpg);
+    border-radius: 30px;
+    background-position: center center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.secondimage:hover{
+    transform:scale(1.05);
+    transition:all 1s ease-in-out;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+
+.thirdimage{
+    width: 1030px;
+    height: 400px;
+    padding: 90px;
+    object-fit: contain;
+    background-image: url(iqoo.jpg);
+    object-fit: cover;
+    background-position: center center ;
+    margin-left: 60px ;
+    margin-top:50px ;
+    border-radius: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+.thirdimage:hover{
+    transform:scale(1.05);
+    transition:all 1s ease-in-out;
+}
+.Ione{
+    color: #fff;
+}
+.Itwo{
+    color: #fff;
+}
+.Ithree{
+    color: #fff
+    ;
+}
+
+.last{
+    width: 1030px;
+    height: 1030px;
+}
+.f{
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 400px;
+    height: 340px;
+    background-image: url(x60\ series.jpg);
+    border-radius: 30px;
+    float: left;
+}
+.fimg{
+    
+    width: 400px;
+    
+}
+.f:hover{
+    transform:scale(1.05);
+    transition:all 1s ease-in-out;
+}
+.ftext{
+    font-weight: lighter;
+    font-size: medium;
+    margin-top: 250px;
+    margin-left: 60px;
+}
+.ftxt{
+    font-size: x-large;
+    font-weight: bold;
+}
+.t{
+    margin-top: -300px;
+    margin-left: 30px;
+    width: 400px;
+    height: 280px;
+    background-image: url(v20\ pro.jpg);
+    border-radius: 30px;
+    float: left;
+    
+}
+.timg{
+    border-radius: 30px;
+}
+.t:hover{
+    transform:scale(1.05);
+    transition:all 1s ease-in-out;
+}
+.ttxt{
+    width: 400px;
+    height: 150px;
+    background-color: #ffffff;
+    float: left;
+    margin-left: 30px;
+    margin-top: -40px;
+    
+}
+.ttext{
+    font-size: medium;
+    margin-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.tttxt{
+    font-size: large;
+}
+.simg{
+    border-radius: 30px;
+}
+.s{
+    margin-top: 80px;
+    margin-left: 30px;
+    width: 400px;
+    height: 690px;
+    background-image: url(extreme\ night\ vision.jpg);
+    border-radius: 30px;
+    float: left;
+}
+.s:hover{
+    transform:scale(1.05);
+    transition:all 1s ease-in-out;
+}
+.stext{
+    margin-top: 590px;
+    margin-left: 40px;
+    font-size: medium;
+}
+.stxt{
+    font-size: x-large;
+}
+
+.fo{
+    border-radius: 30px;
+    width: 380px;
+    height: 300px;
+    background-image: url(tws\ neo.jpg) ;
+    background-position: center;
+    float: right;
+    margin-top: -750px;
+    margin-left: 890px;
+    float: left;
+
+}
+.foimg{
+    
+}
+.fo:hover{
+    transform:scale(1.05);
+    transition:all 1s ease-in-out;
+}
+.fot{
+    margin-top:-400px;
+    margin-left: 890px;
+    float: left;
+    width: 380px;
+    height: 100px;
+    background-color: #fff;
+}
+.fotext{
+    font-weight: lighter;
+    font-size: large;
+    margin-left: 60px;
+}
+.fotxt{font-size: x-large;
+}
+.five{
+    width: 390px;
+    height: 280px;
+    background-image: url(y73.jpg) ;
+    float: right;
+    margin-top: -300px;
+    margin-left: 890px;
+    float: left;
+    border-radius: 30px;
+}
+.five:hover{
+    transform:scale(1.05);
+    transition:all 1s ease-in-out;
+}
+.fivetext{
+    font-size: large;
+    color: #fff;
+    margin-top: 190px;
+    margin-left: 60px;
+}
+.fivetxt{
+font-size: xx-large;
+}
+
+.footer{
+    width: 100%;
+    height: 550px;
+    background-color: #3543c4;
+    margin-top: -50px;
+}
+.fdiv{
+    width: 100%;
+    height: 480px;
+    background-color: #101126;
+    flex-direction: row;
+    
+}
+.footertxt{
+    color: #fff;
+}
+.footertextheading{
+    color: #fff;
+    padding-top:  30px;
+
+}
+.footercontent{
+    color: #6e6f75;
+    margin-left: 80px;
+    float: left;
+    
+}
+.chat{
+    padding-left: 130px;
+    color: #6e6f75;
+    float: left;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+.ch{
+    color: #fff;
+    padding-top: 0px;
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+}
+.icons{
+    color: #cacaca;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.phonenumber{
+    color: blue;
+}
+.india{
+    margin-left: 100px;
+
+}
